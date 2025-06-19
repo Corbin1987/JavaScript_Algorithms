@@ -20,7 +20,7 @@ var sortArrayAscending = function(arrayToSort) {
 
 			if (arrayToSort[i] > arrayToSort[j]) {
 				var ii = arrayToSort[i];
-				var jj = arrayToSort[j]
+				var jj = arrayToSort[j];
 				arrayToSort[i] = jj;
 				arrayToSort[j] = ii;
 			}
